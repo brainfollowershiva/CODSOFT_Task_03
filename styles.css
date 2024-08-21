@@ -1,0 +1,169 @@
+/* Basic Reset */
+body, h1, h2, h3, p, a, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Container for centering content */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+}
+
+header .tagline {
+    font-style: italic;
+    color: #ccc;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+    background: white;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#about .bio {
+    max-width: 600px;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+    background: white;
+}
+
+#projects .project {
+    margin-bottom: 30px;
+}
+
+#projects .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#projects h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+#projects a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Resume Section */
+#resume {
+    padding: 40px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background: #45a049;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+    background: white;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
